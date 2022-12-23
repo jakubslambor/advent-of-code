@@ -19,10 +19,10 @@ const getDirections = (a: Point, b: Point): Direction[] => {
 }
 
 const move = (position: Point, direction: Direction) => {
-  if (direction === 'U') position.y = position.y + 1
-  if (direction === 'R') position.x = position.x + 1
-  if (direction === 'D') position.y = position.y - 1
-  if (direction === 'L') position.x = position.x - 1
+  if (direction === 'U') position.y++
+  if (direction === 'R') position.x++
+  if (direction === 'D') position.y--
+  if (direction === 'L') position.x--
 }
 
 const getVisitedPlaces = (input: string[], ropeLength: number) => {
