@@ -25,7 +25,7 @@ const move = (position: Point, direction: Direction) => {
   if (direction === 'L') position.x--
 }
 
-const getVisitedPlaces = (input: string[], ropeLength: number) => {
+function getVisitedPlaces(input: string[], ropeLength: number) {
   const rope: Point[] = Array.from(Array(ropeLength), () => ({ x: 0, y: 0 }))
   const visited = [{ x: 0, y: 0 }]
 
