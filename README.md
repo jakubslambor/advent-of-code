@@ -8,4 +8,4 @@ deno run solution.ts
 
 | Language | Runtime | Days completed so far |
 | --- | --- | --- |
-| `TypeScript` | `Deno` | **9**/25 |
+| `TypeScript` | `Deno` | **12**/25 |
